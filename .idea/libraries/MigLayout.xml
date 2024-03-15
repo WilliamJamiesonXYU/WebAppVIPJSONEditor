@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="MigLayout">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MigLayout" />
+      <root url="file://$PROJECT_DIR$/json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/MigLayout" />
+      <root url="file://$PROJECT_DIR$/json" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/json" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/MigLayout" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/json" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/MigLayout" recursive="false" type="SOURCES" />
+  </library>
+</component>
