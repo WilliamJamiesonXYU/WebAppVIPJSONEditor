@@ -94,7 +94,6 @@ public class GraphicsMain {
         panel.add(nextButton);
         panel.add(saveButton);
 
-
     }
 
     private void saveToJson() {
