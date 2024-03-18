@@ -39,7 +39,7 @@ public class OtherInfoGraphics {
 
 
     public static void main(String[] args) {
-        new GraphicsMain();
+        new OtherInfoGraphics();
 
     }
 
@@ -128,7 +128,7 @@ public class OtherInfoGraphics {
                 System.out.println(alertDict.get("" + jsonIndex));
                 jsonIndex++;
                 currAlert = (JSONObject) alertDict.get("" + jsonIndex);
-                alertText.setText((String) currAlert.get("alertSolution"));
+                alertText.setText((String) currAlert.get("alertOtherInfo"));
                 window.setTitle(currAlert.get("alertName") + " " + jsonIndex);
                 if (jsonIndex % 10 == 0) {
                     saveToJson();
